@@ -24,6 +24,12 @@ jobs:
       - name: Build Angular app
         run: npm run build
 
+      - name: Archive production build
+        uses: actions/upload-artifact@v2
+        with:
+          name: angular-app
+          path: dist/
+
       # Add deployment steps here, such as deploying to a hosting platform like Netlify, GitHub Pages, Firebase Hosting, etc.
       # Example:
       #- name: Deploy to Netlify
