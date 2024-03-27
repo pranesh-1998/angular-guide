@@ -26,7 +26,7 @@ jobs:
 
       # Add deployment steps here, such as deploying to a hosting platform like Netlify, GitHub Pages, Firebase Hosting, etc.
       # Example:
-      - name: Deploy to Netlify
-        uses: netlify/actions/cli@v1
-        with:
-          args: deploy --prod
+      #- name: Deploy to Netlify
+      #  uses: netlify/actions/cli@v1
+      # with:
+       #   args: deploy --prod
